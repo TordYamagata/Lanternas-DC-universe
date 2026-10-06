@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lantern Corps | DC Universe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <span>◉</span> LANTERN
+    </div>
+
+    <nav>
+        <a href="#home">INÍCIO</a>
+        <a href="#corps">TROPAS</a>
+        <a href="#spectrum">ESPECTRO</a>
+        <a href="#about">SOBRE</a>
+    </nav>
+
+    <button class="menu-btn">☰</button>
+</header>
+
+<main>
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="subtitle">DC UNIVERSE</p>
+
+            <h1>
+                EMOTIONAL
+                <span>SPECTRUM</span>
+            </h1>
+
+            <p class="description">
+                O universo das Lanternas é alimentado por um espectro
+                de emoções. Cada cor representa uma força diferente.
+            </p>
+
+            <a href="#corps" class="btn">
+                EXPLORE AS TROPAS
+            </a>
+
+        </div>
+
+        <div class="power-ring">
+            <div class="ring-symbol">◉</div>
+        </div>
+
+    </section>
+
+
+    <section id="corps" class="section">
+
+        <div class="section-title">
+            <p>EMOTIONAL SPECTRUM</p>
+            <h2>THE LANTERN CORPS</h2>
+        </div>
+
+        <div class="cards">
+
+            <div class="card green">
+                <div class="icon">◉</div>
+                <h3>GREEN LANTERN</h3>
+                <span>VONTADE</span>
+                <p>
+                    A força de vontade permite que seus membros
+                    superem o medo e transformem pensamentos em realidade.
+                </p>
+                <button onclick="showCorps('GREEN LANTERN')">
+                    ACESSAR
+                </button>
+            </div>
+
+
+            <div class="card yellow">
+                <div class="icon">◉</div>
+                <h3>SINIESTRO CORPS</h3>
+                <span>MEDO</span>
+                <p>
+                    O poder amarelo utiliza o medo como combustível
+                    para dominar e controlar seus inimigos.
+                </p>
+                <button onclick="showCorps('SINIESTRO CORPS')">
+                    ACESSAR
+                </button>
+            </div>
+
+
+            <div class="card red">
+                <div class="icon">◉</div>
+                <h3>RED LANTERN</h3>
+                <span>RAIVA</span>
+                <p>
+                    A energia vermelha transforma a raiva em uma
+                    força extremamente destrutiva.
+                </p>
+                <button onclick="showCorps('RED LANTERN')">
+                    ACESSAR
+                </button>
+            </div>
+
+
+            <div class="card blue">
+                <div class="icon">◉</div>
+                <h3>BLUE LANTERN</h3>
+                <span>ESPERANÇA</span>
+                <p>
+                    A esperança é capaz de fortalecer outras
+                    energias e inspirar aqueles ao seu redor.
+                </p>
+                <button onclick="showCorps('BLUE LANTERN')">
+                    ACESSAR
+                </button>
+            </div>
+
+
+            <div class="card violet">
+                <div class="icon">◉</div>
+                <h3>STAR SAPPHIRES</h3>
+                <span>AMOR</span>
+                <p>
+                    O espectro violeta representa o poder do amor
+                    e das conexões emocionais.
+                </p>
+                <button onclick="showCorps('STAR SAPPHIRES')">
+                    ACESSAR
+                </button>
+            </div>
+
+
+            <div class="card orange">
+                <div class="icon">◉</div>
+                <h3>ORANGE LANTERN</h3>
+                <span>AVAREZA</span>
+                <p>
+                    O laranja representa o desejo de possuir
+                    tudo para si.
+                </p>
+                <button onclick="showCorps('ORANGE LANTERN')">
+                    ACESSAR
+                </button>
+            </div>
+
+
+            <div class="card black">
+                <div class="icon">◉</div>
+                <h3>BLACK LANTERN</h3>
+                <span>MORTE</span>
+                <p>
+                    As Lanternas Negras estão ligadas à morte
+                    e à energia dos mortos.
+                </p>
+                <button onclick="showCorps('BLACK LANTERN')">
+                    ACESSAR
+                </button>
+            </div>
+
+
+            <div class="card white">
+                <div class="icon">◉</div>
+                <h3>WHITE LANTERN</h3>
+                <span>VIDA</span>
+                <p>
+                    A energia branca representa a vida e a união
+                    de diferentes emoções.
+                </p>
+                <button onclick="showCorps('WHITE LANTERN')">
+                    ACESSAR
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="spectrum" class="spectrum-section">
+
+        <div class="spectrum-text">
+
+            <p>THE EMOTIONAL SPECTRUM</p>
+
+            <h2>
+                EVERY EMOTION
+                <span>HAS POWER.</span>
+            </h2>
+
+            <p>
+                Cada emoção ocupa uma posição dentro do espectro.
+                Quanto maior a conexão emocional, maior o potencial
+                da energia da Lanterna.
+            </p>
+
+        </div>
+
+        <div class="spectrum">
+
+            <div class="spectrum-line green"></div>
+            <div class="spectrum-line blue"></div>
+            <div class="spectrum-line violet"></div>
+            <div class="spectrum-line red"></div>
+            <div class="spectrum-line orange"></div>
+            <div class="spectrum-line yellow"></div>
+            <div class="spectrum-line black"></div>
+            <div class="spectrum-line white"></div>
+
+        </div>
+
+    </section>
+
+
+    <section id="about" class="about">
+
+        <div>
+
+            <p>THE CORPS</p>
+
+            <h2>
+                WHICH RING
+                <span>WOULD CHOOSE YOU?</span>
+            </h2>
+
+            <p>
+                O anel não escolhe simplesmente um usuário.
+                Ele responde às características emocionais
+                daqueles que possuem força suficiente para
+                utilizar seu poder.
+            </p>
+
+            <button class="btn" onclick="chooseRing()">
+                DISCOVER YOUR CORPS
+            </button>
+
+        </div>
+
+        <div class="giant-ring">
+            ◉
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        ◉ LANTERN
+    </div>
+
+    <p>
+        DC EMOTIONAL SPECTRUM
+    </p>
+
+    <p>
+        Fan-made interface
+    </p>
+
+</footer>
+
+
+<div id="modal" class="modal">
+
+    <div class="modal-content">
+
+        <button class="close" onclick="closeModal()">×</button>
+
+        <div class="modal-ring">◉</div>
+
+        <h2 id="modal-title">GREEN LANTERN</h2>
+
+        <p id="modal-text"></p>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
